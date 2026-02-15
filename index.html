@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="dark-mode">
+<!-- 
+  ==============================================
+  DULANA'S PORTFOLIO - DARK THEME VERSION
+  ==============================================
+  A modern, responsive portfolio website with:
+  - Dark theme as default
+  - Tech-inspired animated background
+  - Smooth animations and transitions
+  - Mobile-first responsive design
+  - AI & Robotics themed visual elements
+  ============================================== 
+-->
+<head>
+  <!-- Character encoding and viewport settings for proper rendering -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dulana's Portfolio</title>
+
+  <!-- Font Awesome icon library for social media and UI icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+
+  <!-- Custom stylesheet with dark theme styling -->
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+  <!-- NAVIGATION BAR: Sticky navigation with logo, menu links, and theme toggle -->
+  <nav>
+    <div class="nav-container">
+      <!-- Logo/Brand name -->
+      <div class="logo">ABISHEK</div>
+      
+      <!-- Navigation menu links -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <!-- Theme toggle button (disabled in dark-only mode, kept for structure) -->
+      <div class="theme-toggle" aria-label="Toggle dark mode" role="button" tabindex="0" title="Dark Mode Enabled" style="display: none;">
+        <i class="fas fa-moon"></i>
+      </div>
+      
+      <!-- Hamburger menu for mobile navigation -->
+      <div class="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION: Hero section with greeting, CTA button, social links, and animated background elements -->
+  <section id="home" class="home-section">
+    <!-- Animated floating particles - create visual depth with subtle movements -->
+    <div class="particle particle-1"></div>
+    <div class="particle particle-2"></div>
+    <div class="particle particle-3"></div>
+    <div class="particle particle-4"></div>
+    <div class="particle particle-5"></div>
+    
+    <!-- Animated glow lines - simulate data flow and neural network connections -->
+    <div class="glow-line glow-line-1"></div>
+    <div class="glow-line glow-line-2"></div>
+    
+    <!-- Left section: Text content, CTA button, and social media icons -->
+    <div class="home-left">
+      <!-- Main greeting heading -->
+      <h1>Hello,<br>I'm Abishek</h1>
+      
+      <!-- Download CV button -->
+      <a href="CV NEW DULANA.pdf" class="btn" download>Download CV</a>
+  
+      <!-- Social media links and mobile profile image container -->
+      <div class="social-mobile-flex-wrapper">
+        <!-- Social media icons linking to external profiles -->
+        <div class="social-links">
+          <a href="https://wa.me/+94776703808" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/__dula_official__" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com/in/dulana-henuka-7a0888337" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/dulana.henuka.9" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/dula-abhi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+  
+        <!-- Profile image container (visible on mobile) -->
+        <div class="home-image-mobile">
+          <img src="dulana01.jpg" alt="Profile Picture" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile image container (visible on desktop) -->
+    <div class="home-right-desktop">
+      <img src="dulana01.jpg" alt="Profile Picture" />
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION: Personal introduction and background information -->
+  <section id="about" class="section about-section">
+    <h2>About Me</h2>
+    <!-- Container with profile image and about text -->
+    <div class="about-container">
+      <!-- Profile image -->
+      <img
+        src="dulana03.jpg"
+        alt="Profile Picture"
+        class="profile-pic"
+      />
+      <!-- About text content -->
+      <div class="about-text">
+        <p>
+        I am a dedicated undergraduate pursuing a BSc in Artificial Intelligence and Robotics, with a strong interest in intelligent systems, automation, and emerging technologies. My academic background, combined with continuous self-learning, has enabled me to build practical skills in HTML, CSS, PHP, Python, SQL, and Java, allowing me to develop functional and user-focused web applications.<BR><BR>
+        Currently, I serve as a Junior Operations Executive at Neon Maritime (Pvt) Ltd, where I am responsible for coordinating vessel operations, handling documentation, and supporting logistics processes. This role has strengthened my attention to detail, time management, and ability to perform efficiently in high-responsibility environments.<BR><BR>
+        I bring a balanced combination of technical capability and operational experience, supported by strong communication, leadership, and problem-solving skills. With a mindset focused on continuous improvement and innovation, I am committed to leveraging technology to create practical, efficient, and impactful solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION: Displays technical and soft skills with progress bars -->
+  <section id="skills" class="skills-section">
+    <h2 class="section-title">Skills</h2>
+    
+    <!-- Container for skill categories (Technical and Soft) -->
+    <div class="skills-wrapper">
+      <!-- Technical Skills Category -->
+      <div class="skills-category">
+        <h3>Technical Skills</h3>
+        <p>Proficient in a range of programming languages, frameworks, and tools essential to development.</p>
+  
+        <!-- Individual Skill Item with icon and progress bar -->
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fab fa-html5"></i><span>HTML5</span>
+            <span class="skill-percent">95%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="95"></div></div>
+        </div>
+  
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fab fa-css3-alt"></i><span>CSS3</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="85"></div></div>
+        </div>
+  
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fab fa-js-square"></i><span>Python</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="90"></div></div>
+        </div>
+  
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fas fa-pencil-ruler"></i><span>Java</span>
+            <span class="skill-percent">55%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="85"></div></div>
+        </div>
+      </div>
+  
+      <!-- Soft Skills Category -->
+      <div class="skills-category">
+        <h3>Soft Skills</h3>
+        <p>I believe in the importance of strong interpersonal skills to complement technical expertise.</p>
+  
+        <!-- Individual Skill Item with icon and progress bar -->
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fas fa-user"></i><span>Leadership</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="85"></div></div>
+        </div>
+  
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fas fa-comment-dots"></i><span>Communication</span>
+            <span class="skill-percent">100%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="100"></div></div>
+        </div>
+  
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fas fa-clock"></i><span>Time Management</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="90"></div></div>
+        </div>
+  
+        <div class="skill-item">
+          <div class="skill-info">
+            <i class="fas fa-lightbulb"></i><span>Problem Solving</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-level" data-level="85"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- CERTIFICATES SECTION: Reserved for future certificate displays -->
+  <section id="certificates" class="section certificates-section">
+    </section>
+
+  <!-- PROJECTS SECTION: Portfolio of completed projects with links to code and live demos -->
+  <section id="projects" class="section projects-section">
+    <h2>Projects</h2>
+
+    <!-- Project Card 1: Individual project container with hover effects -->
+    <div class="project-card">
+      <h3>DHA Photography</h3>
+      <p>A Display webapp built with HTML, CSS, and JS for DHA Photography.</p>
+    
+      <div class="project-card-initial">
+        <a href="#" class="view-more-link">View More</a>
+      </div>
+    
+      <div class="project-card-hover-content">
+        <div class="project-links">
+          <a href="https://github.com/dula-abhi/DHA_Photography/" target="_blank" rel="noopener">Code (GitHub)</a>
+          <a href="https://dula-abhi.github.io/DHA_Photography/" target="_blank" rel="noopener">Live Demo</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Project Card 2: Individual project container with hover effects -->
+    <div class="project-card">
+      <h3>Urban Luwis</h3>
+      <p>E-Commerce web app built with HTML, CSS, and JS for Urban Luwis.</p>
+      <p>CURRENTLY UNDER UPDATE.</p>
+    
+      <!-- Initial state - shows View More link -->
+      <div class="project-card-initial">
+        <a href="#" class="view-more-link">View More</a>
+      </div>
+    
+      <!-- Hover state - shows GitHub and Live Demo links -->
+      <div class="project-card-hover-content">
+        <div class="project-links">
+          <a href="https://github.com/yourprofile/project-two-code" target="_blank" rel="noopener">Code (GitHub)</a>
+          <a href="https://dula-abhi.github.io/UrbanLuwis/" target="_blank" rel="noopener">Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Card 3: Individual project container with hover effects -->
+    <div class="project-card">
+      <h3>Vessel Tues Summary(SLPA)</h3>
+      <p>A web app built with HTML, CSS, and JS for Calculate Tues of Vessels @ SLPA.</p>
+    
+      <!-- Initial state - shows View More link -->
+      <div class="project-card-initial">
+        <a href="#" class="view-more-link">View More</a>
+      </div>
+    
+      <!-- Hover state - shows GitHub and Live Demo links -->
+      <div class="project-card-hover-content">
+        <div class="project-links">
+          <a href="https://dula-abhi.github.io/Vessel_update_summary/" target="_blank" rel="noopener">Code (GitHub)</a>
+          <a href="https://dula-abhi.github.io/Vessel_update_summary/" target="_blank" rel="noopener">Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Project Card 4: Individual project container with hover effects -->
+    <div class="project-card">
+      <h3>SLPA TDR Generator</h3>
+      <p>A web app built with HTML, CSS, and JS for Generate TDR of Discharging units in Vessels @ SLPA.</p>
+    
+      <!-- Initial state - shows View More link -->
+      <div class="project-card-initial">
+        <a href="#" class="view-more-link">View More</a>
+      </div>
+    
+      <!-- Hover state - shows GitHub and Live Demo links -->
+      <div class="project-card-hover-content">
+        <div class="project-links">
+          <a href="https://github.com/dula-abhi/EDI_GENERATOR" target="_blank" rel="noopener">Code (GitHub)</a>
+          <a href="https://dula-abhi.github.io/EDI_GENERATOR/" target="_blank" rel="noopener">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION: Contact form for visitors to send messages -->
+  <section class="contact section" id="contact">
+    <h2>Contact Me</h2>
+    <!-- Contact form container -->
+    <div class="contact__container bd-grid">
+      <!-- Contact form with Web3Forms integration for email submission -->
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Web3Forms API key for form submission -->
+        <input type="hidden" name="access_key" value="6da33289-085f-400f-937b-d4a9d2052705">
+  
+        <!-- Form input fields for name, email, and message -->
+        <input type="text" placeholder="Name" name="name" class="contact__input slide-in-left" required>
+        <input type="email" placeholder="Email" name="email" class="contact__input slide-in-left" required>
+        <textarea name="message" placeholder="Message" class="contact__input slide-in-left" cols="0" rows="8" required></textarea>
+  
+        <!-- Form action buttons -->
+        <div class="buttons-container">
+          <!-- Reset button to clear form fields -->
+          <button type="reset" class="contact__button button clear">Clear Form</button>
+          <!-- Submit button to send the form -->
+          <button type="submit" class="contact__button button">Submit Form</button>
+        </div>
+      </form>
+
+      <!-- Social media icons linking to external profiles -->
+      <!--<div class="social-links" style="margin-top: 30px;">
+        <a href="https://wa.me/+94776703808" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/__dula_official__" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/dulana-henuka-7a0888337" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/dulana.henuka.9" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://github.com/dula-abhi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>-->
+  </section>
+
+  <!-- FOOTER: Copyright and credits information -->
+  <footer>
+    <p>&copy; 2026 ABISHEK. All rights reserved.</p>
+  </footer>
+
+  <!-- Load external JavaScript for interactivity and animations -->
+  <script src="script.js"></script>
+</body>
+</html>
