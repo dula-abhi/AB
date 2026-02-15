@@ -1701,7 +1701,7 @@ footer {
 }
 
 .contact__button {
-    width: 30%;
+    width: 50%;
     padding: 12px 10px;
     font-size: 15px;
     flex: 0 0 30%;
@@ -1846,4 +1846,5 @@ footer {
   }
 
 }
+
 
